@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65766635044",
+    "project_id": "flutter-firebase-project-2a37d",
+    "storage_bucket": "flutter-firebase-project-2a37d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65766635044:android:396386151843e0074f8ab1",
+        "android_client_info": {
+          "package_name": "edu.mercer.muse.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65766635044-boqktdomctcljp065p0khh9eea0ctc9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBONUiJyZdI6OQB5jCDqusCvwBXSldS8LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65766635044-boqktdomctcljp065p0khh9eea0ctc9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
