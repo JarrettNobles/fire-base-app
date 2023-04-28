@@ -1,22 +1,14 @@
-//      main.dart
-
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
 import 'login_signup_page.dart';
 import 'p0_after_login.dart';
 import 'p1_database_display.dart';
 import 'p2_database_post.dart';
 import 'p3_textfields_post.dart';
 import 'p4_votes_display.dart';
-// import other dart files here !!!
 
-
-// FirebaseAuth fetches the authentication state of
-// your user, such as whether they're logged in or
-// logged out.
 final FirebaseAuth auth = FirebaseAuth.instance;
 
 const String _appTitle =    'Firebase Demo'    ;
@@ -40,13 +32,7 @@ const TextFieldsPost(),
       const VotesDisplay(),
 
 
-  // add other screens here !!!
-
 };
-
-
-//     CONTINUE ON NEXT SCREEN
-
 
 void main() async {
 
@@ -94,8 +80,6 @@ class MyApp extends StatelessWidget {
 
 }     // end of MyApp
 
-// CONTINUE ON NEXT PAGE
-
 class MyHomePage  extends StatelessWidget {
 
   const MyHomePage ({Key? key}) : super(key: key);
@@ -110,7 +94,6 @@ class MyHomePage  extends StatelessWidget {
       const Text('Firebase Demo'),
       ),  // AppBar
 
-
       body:  StreamBuilder<User?>(
 
         stream: FirebaseAuth.instance.authStateChanges(),
@@ -121,15 +104,10 @@ class MyHomePage  extends StatelessWidget {
 
 
     );
-
-
   }
-
-
 }   // end of MyHomePage Class
 
 
-//   CONTINUE ON NEXT PAGE
 
 Widget _buildHomePageBody(BuildContext context,
     AsyncSnapshot<User?> snapshot) {
